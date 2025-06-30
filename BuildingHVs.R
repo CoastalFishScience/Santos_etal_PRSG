@@ -1,4 +1,4 @@
-#' """ Santos et al., Puerto RIco SeaGrant Final Report 
+#' """ Santos et al., Puerto Rico SeaGrant Final Report 
 #'     @authors: Valentina Bautista and W.R. James 
 #'     date: """6/30/2025
 
