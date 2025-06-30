@@ -61,12 +61,12 @@ df_hv = df_ben |>
   
 ## 2023 Hypervolumes: Site-level ------------------------------------------------------------
 # Load community data (Taglab Area from LAI)
-taglab_df =read.csv("data/SGPR_CoralNet_23_24_25.csv")
+taglab_df =read.csv("data/SGPR_TaglabAnnot_2023.csv")
 
 SGPR_2023 = taglab_df |> 
     left_join(df_tr, by = 'species') |>  ##same trait data previously used 
     ungroup() |>
-    mutate(CoverArea = `TagLab Area`,
+    mutate(CoverArea = `TagLab.Area`,
            `corallite diameter` = `mean_corallite diameter`,          
            `growth rate` = `mean_growth rate`,
            `skeletal density` = `mean_skeletal density`,
